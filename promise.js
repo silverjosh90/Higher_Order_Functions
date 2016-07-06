@@ -1,5 +1,12 @@
-function Promuse(){
-  function(resolve, reject)
+function Promuse(func){
+  this.then = function() {
+    return 'hello'
+  }
+  return func
 }
 
-module.exports Promuse
+
+
+
+
+module.exports = Promuse

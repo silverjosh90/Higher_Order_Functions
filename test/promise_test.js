@@ -2,8 +2,20 @@ var expect = require('chai').expect
 var Promuse = require('../promise')
 
 describe('#promise', function(){
-	it('returns function', function(){
+	it('has a .then method', function(){
 	  var promise =  new Promuse
+		expect(promise.then()).to.be.True
+	})
+	it('calls a function immediately', function(){
+		var promise =  new Promuse(function(){
+			return 'derp'
+		})
+		expect(promise()).to.equal('derp')
+	})
+	it('waits to return ', function(){
+
+		expect().to.equal()
+
 	})
 
 })
