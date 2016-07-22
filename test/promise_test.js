@@ -12,10 +12,5 @@ describe('#promise', function(){
 		})
 		expect(promise()).to.equal('derp')
 	})
-	it('waits to return ', function(){
-
-		expect().to.equal()
-
-	})
 
 })
