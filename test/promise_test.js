@@ -10,10 +10,8 @@ describe('#promise', function(){
 		var promise =  new Promuse(function(){
 			return 'derp'
 		})
-		expect(promise()).to.equal('derp')
-		var promise =  new Promuse(function(){
-			return 'herro'
-		expect(promise()).to.equal('herro')
+		expect(promise()).to.equal('potatoe')
+
 
 		})
 	})
