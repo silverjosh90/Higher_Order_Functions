@@ -8,9 +8,9 @@ describe('#promise', function(){
 	})
 	it('calls a function immediately', function(){
 		var promise =  new Promuse(function(){
-			return 'derp'
+			return 'herp'
 		})
-		expect(promise()).to.equal('potatoe')
+		expect(promise()).to.equal('herp')
 
 
 		})
