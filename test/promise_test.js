@@ -11,9 +11,6 @@ describe('#promise', function(){
 			return 'herp'
 		})
 		expect(promise()).to.equal('herp')
-
-
-		})
 	})
 
 })
